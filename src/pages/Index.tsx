@@ -105,7 +105,7 @@ const Index = () => {
       <nav className="fixed top-0 w-full bg-background/80 backdrop-blur-md border-b border-border z-50">
         <div className="container mx-auto px-4 py-4">
           <div className="flex items-center justify-between">
-            <div className="text-2xl font-bold text-primary">WebStudio</div>
+            <div className="text-2xl font-bold text-primary bg-transparent rounded-none">Студия Юсуфа Ибрагимова</div>
             <div className="hidden md:flex space-x-8">
               {['home', 'services', 'portfolio', 'about', 'contact', 'faq'].map((item) => (
                 <button
@@ -135,7 +135,7 @@ const Index = () => {
       <section id="home" className="pt-24 pb-16 px-4">
         <div className="container mx-auto text-center">
           <div className="max-w-4xl mx-auto">
-            <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-transparent">Веб-студия</h1>
+            <h1 className="text-6xl md:text-8xl font-bold mb-6 bg-gradient-to-r from-primary to-primary/60 bg-clip-text text-gray-100">Веб-студия</h1>
             <p className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto">
               Создаем современные сайты и приложения, которые работают и приносят результат
             </p>
